@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+    />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>Abu Makeover</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Omnifood logo" src="img/abu.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">How we work</a></li>
+          <li><a class="main-nav-link" href="#meals">Services</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="https://koalendar.com/e/meet-with-beautician" target="_blank">Book me</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Unlock Your Inner Glow: Discover the Art of Timeless Beauty!
+            </h1>
+            <p class="hero-description">
+              Step into a world of luxury and self-care, where elegance meets expertise. Discover the art of timeless beauty with our indulgent and transformative treatments. Unlock your inner glow, radiate confidence, and enhance your natural beauty through our signature services. 
+            </p>
+            <a href="https://koalendar.com/e/meet-with-beautician" target="_blank" class="btn btn--full margin-right-sm"
+              >Book me!</a
+            >
+
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+              </div>
+              <p class="delivered-text">
+                <span>50+</span> makeover done so far!
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero-min.png" type="image/png" />
+
+              <img
+                src="img/hero-min.png"
+                class="hero-img"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">How we work</span>
+          <h2 class="heading-secondary">
+            How we work with you in 3 simple steps
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">
+              Discover the Beauty of Your Journey
+            </h3>
+            <p class="step-description">
+              Let me take you on a captivating journey through the wonders of beauty. With my extensive experience and passion for perfection, I have crafted enchanting transformations for countless clients.
+            </p>
+          </div>
+
+          <div class="step-img-box">
+            <img
+              src="img/app/app-screen-1.png"
+              class="step-img"
+              alt="iPhone app
+            preferences selection screen"
+            />
+          </div>
+
+          <!-- STEP 02 -->
+          <div class="step-img-box">
+            <img
+              src="img/app/app-screen-2.png"
+              class="step-img"
+              alt="iPhone app
+            meal approving plan screen"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Your Vision, My Expertise</h3>
+            <p class="step-description">
+              Unveil your desires, and I shall weave them into reality. Share with me your dreams of radiance, and together, we'll create a bespoke experience tailored to your every need.
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Embrace the Magic, Book Today!</h3>
+            <p class="step-description">
+              Don't wait for the magic to happen – let's make it come alive on your special day! Secure your spot now, and let the beauty unfold on your most cherished occasion.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/app/app-screen-3.png"
+              class="step-img"
+              alt="iPhone app
+            delivery screen"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-meals" id="meals">
+        <div class="container center-text">
+          <span class="subheading">Services</span>
+          <h2 class="heading-secondary">
+            You can choose from the style you want!
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img
+              src="img/meals/meal-1.jpg"
+              class="meal-img"
+              alt="Japanese Gyozas"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Makeup</span>
+              </div>
+              <p class="meal-title">HD-Makeup &amp; HairStyling</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>Starts from</strong> 3000 INR</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> rating (25)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="img/meals/meal-2.jpg"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegan">Services</span>
+                <span class="tag tag--paleo">Classes</span>
+              </div>
+              <p class="meal-title">Saree Draping &amp; Beauty Classes</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>Starts from</strong> 1000 INR</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>Certificate Provided</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> rating (15)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">Other services we offer:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Mehndi</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Varieties of Hairstyles</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Waterproof Makeup</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Facial</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>15 day bridal Makeup workshop</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Party Makeover</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Groom Makeover</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Pleating</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Eyebrow defining</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-recipes">
+          <a href="#" class="link">Explore more &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Once you try it, you can't go back</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Dave Bryson"
+                src="img/customers/swetha.jpg"
+              />
+              <blockquote class="testimonial-text">
+                Simply Magical! The beautician's expertise and attention to detail made my special day unforgettable. I felt like a star with the stunning makeover they created. Thank you for bringing out my natural glow!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Swetha</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Ben Hadley"
+                src="img/customers/catherine.JPG"
+              />
+              <blockquote class="testimonial-text">
+                A Beauty Magician! This beautician worked wonders with their skill and personalized touch. I felt radiant and beautiful throughout the event, all thanks to them!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Catherine</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Steve Miller"
+                src="img/customers/kanimozhi.jpg"
+              />
+              <blockquote class="testimonial-text">
+                Dream Come True! My experience was nothing short of magical. The beautician listened to my ideas and turned them into reality, leaving me feeling like a princess. Highly recommended!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Kanimozhi</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Hannah Smith"
+                src="img/customers/atchaiya.JPG"
+              />
+              <blockquote class="testimonial-text">
+                True Beauty Magician! My beautician's skill and personalized touch made me feel radiant and stunning throughout the event. Highly recommended!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Atchaiya</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-1.jpg"
+              alt="Photo of beautifully
+            arranged customer"
+            />
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-2.jpg"
+              alt="Photo of beautifully
+            arranged customer"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-3.jpg"
+              alt="Photo of beautifully
+            arranged customer"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-4.jpg"
+              alt="Photo of beautifully
+            arranged customer"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-5.jpg"
+              alt="Photo of beautifully
+            arranged customer"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-6.jpg"
+              alt="Photo of beautifully
+            arranged customer"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-7.jpg"
+              alt="Photo of beautifully
+            arranged customer"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-8.jpg"
+              alt="Photo of beautifully
+            arranged customer"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-9.jpg"
+              alt="Photo of beautifully
+            arranged customer"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-10.jpg"
+              alt="Photo of beautifully
+            arranged customer"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-11.jpg"
+              alt="Photo of beautifully
+            arranged customer"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-12.jpg"
+              alt="Photo of beautifully
+            arranged customer"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pricing" id="pricing">
+        <div class="container">
+          <span class="subheading">Pricing</span>
+          <h2 class="heading-secondary">
+            Looking well without breaking the bank
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">Starts from</p>
+              <p class="plan-price"><span>₹</span>1000</p>
+              <p class="plan-text">as applicable.</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Makeup or Hairstyles</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Mehndi or Saree Draping</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Occasion Makeup</span>
+              </li>
+              
+            </ul>
+            <div class="plan-sing-up">
+              <a href="https://koalendar.com/e/meet-with-beautician" target="_blank" class="btn btn--full">Book now!!</a>
+            </div>
+          </div>
+
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">Coachings</p>
+              <p class="plan-price"><span>₹</span>10000</p>
+              <p class="plan-text">for bunch of courses.</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span><strong>Basic to advanced</strong> hair styling</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Full <strong>Makeover</strong></span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>All types of Saree drapping</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>All types of facials</span>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="https://koalendar.com/e/meet-with-beautician" target="_blank" class="btn btn--full">Book now!!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container grid">
+          <aside class="plan-details">
+            Prices include all applicable taxes. You can cancel at any time.
+            Both plans include the following:
+          </aside>
+        </div>
+
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+            <p class="feature-title">365 Days of Elegance
+            </p>
+            <p class="feature-text">
+              Our exclusive beauty packages offer year-round enchantment, even on special occasions and holidays.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+            <p class="feature-title">Local and Organic</p>
+            <p class="feature-text">
+              We embrace the beauty of nature with locally sourced, fresh, and organic products for all our treatments.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <p class="feature-title">Sustainable Beauty</p>
+            <p class="feature-text">
+              Join us in our commitment to the environment – we use only reusable and eco-friendly materials throughout.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+            <p class="feature-title">Beauty on Your Terms</p>
+            <p class="feature-text">
+              Going on a break? No worries! Simply pause your subscription, and we'll credit unused sessions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get your discussion session for free!</h2>
+              <p class="cta-text">
+                Discover the Magic of Beauty! Experience healthy, captivating, and hassle-free treatments tailored to your needs. Enjoy flexible booking – cancel or reschedule anytime. Your first enchanting session is our complimentary treat! Unveil your radiance today!
+              </p>
+
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Swetha"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="swetha@gmail.com"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">Instagram</option>
+                    <option value="podcast">WhatsApp</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form"><a  class="dec" href="https://koalendar.com/e/meet-with-beautician" target="_blank">Book now</a></button>
+
+                <!-- <input type="checkbox" />
+                <input type="number" /> -->
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          
+          
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="https://www.instagram.com/abumakeupartist/" target="_blank"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="https://www.instagram.com/abumakeupartist/" target="_blank"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="https://www.instagram.com/abumakeupartist/" target="_blank"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by Abumakeover.
+            All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              112, Near Vivekananda School, Pasupathipalayam, Karur 639004
+            </p>
+            <p>
+              <a class="footer-link" href="tel:8870830681">8870830681</a
+              ><br />
+              <a class="footer-link" href="mailto:abumakeoverbooking@gmail.com"
+                >abu@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
